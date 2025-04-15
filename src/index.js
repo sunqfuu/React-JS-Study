@@ -11,6 +11,7 @@ import './index.css';
 // import App from './components/_1_Style/Style';
 import JsxTutorials from './components/_2_Jsx/JsxTutorials';
 import reportWebVitals from './reportWebVitals';
+import MyClassComponent from './components/_3_ClassComponents/MyClassComponent';
 
 
 //Root
@@ -18,7 +19,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <JsxTutorials/>
+    {/* <JsxTutorials/> */}
+    <MyClassComponent/>
   </React.StrictMode>
 );
 

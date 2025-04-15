@@ -27,7 +27,7 @@ function JsxTutorials() {
   //Variables
   const elementSunqfu = (
     <div>
-      <h1>
+      <h1 style={allParagrafCSS}>
         Merhabalar <mark>Sunqfu</mark> JSX
       </h1>
     </div>
