@@ -1,7 +1,3 @@
-Certainly! Based on the contents of the [sunqfuu/React-JS-Study](https://github.com/sunqfuu/React-JS-Study) repository, here's an improved `README.md` that provides a clearer structure and purpose for the project:
-
----
-
 # React-JS-Study
 
 A personal repository dedicated to learning and experimenting with React.js. This project serves as a sandbox to understand the fundamentals of React, including component creation, state management, routing, and integration with Node.js.
@@ -27,15 +23,15 @@ React-JS-Study/
 ## 📦 Installation & Setup
 
 <<<<<<< HEAD
-1. **Clone the repository:**
-=======
 
->>>>>>> 009214e497825f4d7e96e29ef7b66032d63a7193
+1. # **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/sunqfuu/React-JS-Study.git
-   cd React-JS-Study
-   ```
+> > > > > > > 009214e497825f4d7e96e29ef7b66032d63a7193
+
+```bash
+git clone https://github.com/sunqfuu/React-JS-Study.git
+cd React-JS-Study
+```
 
 2. **Install dependencies:**
 
@@ -120,7 +116,7 @@ In the project directory, you can run:
   ```bash
   npm run eject
   ```
-  
+
 Once you eject, you can't go bck!
 
 ## 📚 Learning Resoures
@@ -132,5 +128,3 @@ In the project directory, you can run:
 This project is open-source and available under the [MIT License](LICNSE).
 
 ---
-
- 
