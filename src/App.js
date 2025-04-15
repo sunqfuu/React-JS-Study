@@ -15,7 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+           <i class="fa-solid fa-graduation-cap"></i> 
+            Learn React
         </a>
       </header>
     </div>
