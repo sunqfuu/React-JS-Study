@@ -12,6 +12,7 @@ import './index.css';
 import JsxTutorials from './components/_2_Jsx/JsxTutorials';
 import reportWebVitals from './reportWebVitals';
 import MyClassComponent from './components/_3_ClassComponents/MyClassComponent';
+import MyFunctionComponent from './components/_4_FunctionComponent/MyFunctionComponent';
 
 
 //Root
@@ -20,7 +21,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <JsxTutorials/> */}
-    <MyClassComponent companyName= "Sunqfu"/>
+    {/* <MyClassComponent companyName="Sunqfu" /> */}
+    <MyFunctionComponent companyName= "Sunqfu" content="Function Component Data"/>
   </React.StrictMode>
 );
 

@@ -53,12 +53,12 @@ class MyClassComponent extends Component {
   render() {
     // Object Destructuring
     const { count } = this.state;
-    const { companyName } = this.props;
+    const { companyName, data } = this.props;
 
     //Return
     return (
       <div className="container text-center mt-5">
-        <h1> {companyName}Class Component</h1>
+        <h1>{companyName} {data} </h1>
         {/* <p className="display-6">{this.state.count}</p> */}
         <p className="display-6">{count}</p>
         <button className="btn btn-primary me-2" onClick={this.sunqfuIncrease}>
@@ -79,5 +79,5 @@ class MyClassComponent extends Component {
  export default MyClassComponent;
 
 MyClassComponent.defaultProps = {
-  data:  "React Class",
+  data:  "Class Component",
 };
