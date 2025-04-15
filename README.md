@@ -26,7 +26,11 @@ React-JS-Study/
 
 ## 📦 Installation & Setup
 
+<<<<<<< HEAD
 1. **Clone the repository:**
+=======
+
+>>>>>>> 009214e497825f4d7e96e29ef7b66032d63a7193
 
    ```bash
    git clone https://github.com/sunqfuu/React-JS-Study.git
