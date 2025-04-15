@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <JsxTutorials/> */}
-    <MyClassComponent/>
+    <MyClassComponent companyName= "Sunqfu"/>
   </React.StrictMode>
 );
 

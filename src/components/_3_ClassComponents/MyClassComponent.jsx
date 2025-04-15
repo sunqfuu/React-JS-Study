@@ -19,9 +19,8 @@ class MyClassComponent extends Component {
 
     // Binding
     this.sunqfuIncrease = this.sunqfuIncrease.bind(this);
-      this.sunqfuDecrease = this.sunqfuDecrease.bind(this);
-      this.sunqfuReset = this.sunqfuReset.bind(this);
-      
+    this.sunqfuDecrease = this.sunqfuDecrease.bind(this);
+    this.sunqfuReset = this.sunqfuReset.bind(this);
   } // End Construstor
 
   // Component Did Mount
@@ -34,33 +33,32 @@ class MyClassComponent extends Component {
     this.setState((prevState) => ({
       count: prevState.count + 1,
     }));
-    };
-    
-    sunqfuDecrease = () => {
-        this.setState((prevState) => ({
-          count: prevState.count - 1,
-        }));
-      };
-   
-    sunqfuReset = () => {
-        this.setState((prevState) => ({
-          count: 0,
-        }));
-      };
-    
+  };
+
+  sunqfuDecrease = () => {
+    if (this.state.count === 0) return;
+    this.setState((prevState) => ({
+      count: prevState.count - 1,
+    }));
+  };
+
+  sunqfuReset = () => {
+    this.setState((prevState) => ({
+      count: 0,
+    }));
+  };
 
   //Render
 
-    render() {
-      
-
-        // Object Destructuring
-        const {count} = this.state;
+  render() {
+    // Object Destructuring
+    const { count } = this.state;
+    const { companyName } = this.props;
 
     //Return
     return (
       <div className="container text-center mt-5">
-        <h1>Class Component</h1>
+        <h1> {companyName}Class Component</h1>
         {/* <p className="display-6">{this.state.count}</p> */}
         <p className="display-6">{count}</p>
         <button className="btn btn-primary me-2" onClick={this.sunqfuIncrease}>
@@ -78,4 +76,8 @@ class MyClassComponent extends Component {
 } //End Class Component
 
 // Export
-export default MyClassComponent;
+ export default MyClassComponent;
+
+MyClassComponent.defaultProps = {
+  data:  "React Class",
+};
