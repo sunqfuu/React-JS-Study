@@ -14,6 +14,7 @@ import reportWebVitals from './reportWebVitals';
 import MyClassComponent from './components/_3_ClassComponents/MyClassComponent';
 import MyFunctionComponent from './components/_4_FunctionComponent/MyFunctionComponent';
 import MyFunctionSunqfuCounter from './components/_4_FunctionComponent/MyFunctionSunqfuCounter';
+import MyFunctionUseEffect from './components/_4_FunctionComponent/MyFunctionUseEffect';
 
 
 //Root
@@ -23,8 +24,10 @@ root.render(
     {/* <App /> */}
     {/* <JsxTutorials/> */}
     {/* <MyClassComponent companyName="Sunqfu" /> */}
-    <MyFunctionComponent companyName= "Sunqfu" content="Function Component Data"/>
-    <MyFunctionSunqfuCounter/> 
+    {/* <MyFunctionComponent companyName= "Sunqfu" content="Function Component Data"/> */}
+    {/* <MyFunctionSunqfuCounter />  */}
+    <MyFunctionUseEffect/> 
+    
   </React.StrictMode>
 );
 
