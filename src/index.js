@@ -8,13 +8,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 // Components
-// import App from './components/_1_Style/Style';
-import JsxTutorials from './components/_2_Jsx/JsxTutorials';
 import reportWebVitals from './reportWebVitals';
-import MyClassComponent from './components/_3_ClassComponents/MyClassComponent';
-import MyFunctionComponent from './components/_4_FunctionComponent/MyFunctionComponent';
-import MyFunctionSunqfuCounter from './components/_4_FunctionComponent/MyFunctionSunqfuCounter';
-import MyFunctionUseEffect from './components/_4_FunctionComponent/MyFunctionUseEffect';
+// import App from './components/_1_Style/Style';
+// import JsxTutorials from './components/_2_Jsx/JsxTutorials';
+// import MyClassComponent from './components/_3_ClassComponents/MyClassComponent';
+// import MyFunctionComponent from './components/_4_FunctionComponent/MyFunctionComponent';
+// import MyFunctionSunqfuCounter from './components/_4_FunctionComponent/MyFunctionSunqfuCounter';
+// import MyFunctionUseEffect from './components/_4_FunctionComponent/MyFunctionUseEffect';
+import MyFunctionUseReducer from './components/_4_FunctionComponent/MyFunctionUseReducer';
 
 
 //Root
@@ -26,7 +27,8 @@ root.render(
     {/* <MyClassComponent companyName="Sunqfu" /> */}
     {/* <MyFunctionComponent companyName= "Sunqfu" content="Function Component Data"/> */}
     {/* <MyFunctionSunqfuCounter />  */}
-    <MyFunctionUseEffect/> 
+    {/* <MyFunctionUseEffect/> */}
+    <MyFunctionUseReducer/>
     
   </React.StrictMode>
 );
