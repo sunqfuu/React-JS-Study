@@ -25,7 +25,7 @@ const ReducerCounterSunqfu = () => {
 
     return (
         <div>
-            <p>Count:{state.count}</p>
+            <p className="ms-4">Count:{state.count}</p>
             <button onClick={() => dispatch({ type: "INCREMENT" })} className="btn btn-primary ms-2 me-2">Artır</button>
             <button onClick={() => dispatch({ type: "DECREMENT" })} className="btn btn-danger ">Azalt</button>
         </div>

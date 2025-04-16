@@ -15,7 +15,8 @@ import reportWebVitals from './reportWebVitals';
 // import MyFunctionComponent from './components/_4_FunctionComponent/MyFunctionComponent';
 // import MyFunctionSunqfuCounter from './components/_4_FunctionComponent/MyFunctionSunqfuCounter';
 // import MyFunctionUseEffect from './components/_4_FunctionComponent/MyFunctionUseEffect';
-import MyFunctionUseReducer from './components/_4_FunctionComponent/MyFunctionUseReducer';
+// import MyFunctionUseReducer from './components/_4_FunctionComponent/MyFunctionUseReducer';
+import MyContextApp from './components/_5_ContextComponent/MyContextApp';
 
 
 //Root
@@ -28,7 +29,8 @@ root.render(
     {/* <MyFunctionComponent companyName= "Sunqfu" content="Function Component Data"/> */}
     {/* <MyFunctionSunqfuCounter />  */}
     {/* <MyFunctionUseEffect/> */}
-    <MyFunctionUseReducer/>
+    {/* <MyFunctionUseReducer /> */}
+    <MyContextApp/>
     
   </React.StrictMode>
 );
