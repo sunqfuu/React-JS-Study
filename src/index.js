@@ -16,7 +16,9 @@ import reportWebVitals from './reportWebVitals';
 // import MyFunctionSunqfuCounter from './components/_4_FunctionComponent/MyFunctionSunqfuCounter';
 // import MyFunctionUseEffect from './components/_4_FunctionComponent/MyFunctionUseEffect';
 // import MyFunctionUseReducer from './components/_4_FunctionComponent/MyFunctionUseReducer';
-import MyContextApp from './components/_5_ContextComponent/MyContextApp';
+// import MyContextApp from './components/_5_ContextComponent/MyContextApp';
+import { BrowserRouter } from 'react-router-dom';
+import MyRouterSunqfu from './components/_6_RouterComponent/MyRouterSunqfu';
 
 
 //Root
@@ -30,7 +32,11 @@ root.render(
     {/* <MyFunctionSunqfuCounter />  */}
     {/* <MyFunctionUseEffect/> */}
     {/* <MyFunctionUseReducer /> */}
-    <MyContextApp/>
+    {/* <MyContextApp/> */}
+
+    <BrowserRouter>
+      <MyRouterSunqfu/>
+    </BrowserRouter>
     
   </React.StrictMode>
 );
