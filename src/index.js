@@ -17,8 +17,11 @@ import reportWebVitals from './reportWebVitals';
 // import MyFunctionUseEffect from './components/_4_FunctionComponent/MyFunctionUseEffect';
 // import MyFunctionUseReducer from './components/_4_FunctionComponent/MyFunctionUseReducer';
 // import MyContextApp from './components/_5_ContextComponent/MyContextApp';
-import { BrowserRouter } from 'react-router-dom';
-import MyRouterSunqfu from './components/_6_RouterComponent/MyRouterSunqfu';
+// import { BrowserRouter } from 'react-router-dom';
+// import MyRouterSunqfu from './components/_6_RouterComponent/MyRouterSunqfu';
+import { Provider } from 'react-redux';
+import store from './store';
+import MyRedux from './components/_7_ReduxComponent/MyRedux';
 
 
 //Root
@@ -33,11 +36,15 @@ root.render(
     {/* <MyFunctionUseEffect/> */}
     {/* <MyFunctionUseReducer /> */}
     {/* <MyContextApp/> */}
-
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <MyRouterSunqfu/>
-    </BrowserRouter>
+    </BrowserRouter> */}
     
+      {/* Redux */}
+    <Provider store={store}>
+      <MyRedux/>
+    </Provider>
+
   </React.StrictMode>
 );
 
